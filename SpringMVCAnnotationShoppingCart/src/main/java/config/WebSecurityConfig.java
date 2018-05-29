@@ -13,7 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter  {
 	@Autowired
-	   MyDBAuthenticationService myDBAauthenticationService;
+	MyDBAuthenticationService myDBAauthenticationService;
 	 
 	   @Autowired
 	   public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
